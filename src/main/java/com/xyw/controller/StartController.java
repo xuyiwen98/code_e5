@@ -9,7 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class StartController {
 
     @GetMapping("/demo1")
-    public String quickStart01(){
+    public String quickStart01() {
+        System.out.println("quickStart01...");
+        return "hello boot!";
+    }
+
+    @GetMapping("/demo2")
+    public String quickStart02() {
         System.out.println("quickStart01...");
         return "hello boot!";
     }
