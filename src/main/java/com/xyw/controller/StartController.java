@@ -19,4 +19,10 @@ public class StartController {
         System.out.println("quickStart01...");
         return "hello boot!";
     }
+
+    @GetMapping("/demo2")
+    public String quickStart03() {
+        System.out.println("quickStart01...");
+        return "hello boot!";
+    }
 }
