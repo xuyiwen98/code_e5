@@ -16,13 +16,20 @@ public class StartController {
 
     @GetMapping("/demo2")
     public String quickStart02() {
-        System.out.println("quickStart01...");
+        System.out.println("quickStart02...");
         return "hello boot!";
     }
 
-    @GetMapping("/demo2")
+    @GetMapping("/demo3")
     public String quickStart03() {
-        System.out.println("quickStart01...");
+        System.out.println("quickStart03...");
         return "hello boot!";
     }
+
+    @GetMapping("/demo4")
+    public String quickStart04() {
+        System.out.println("quickStart...");
+        return "hello boot!";
+    }
+
 }
