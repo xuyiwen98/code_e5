@@ -32,4 +32,10 @@ public class StartController {
         return "hello boot!";
     }
 
+    @GetMapping("/demo5")
+    public String quickStart05() {
+        System.out.println("quickStart...");
+        return "hello boot!";
+    }
+
 }
