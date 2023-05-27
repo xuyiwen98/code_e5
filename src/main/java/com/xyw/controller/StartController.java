@@ -50,4 +50,9 @@ public class StartController {
         return "hello boot!";
     }
 
+    @GetMapping("/demo8")
+    public String quickStart08() {
+        System.out.println("quickStart...");
+        return "hello boot!";
+    }
 }
